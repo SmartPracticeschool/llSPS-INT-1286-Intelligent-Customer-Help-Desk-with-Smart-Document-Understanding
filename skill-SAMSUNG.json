@@ -1,0 +1,1595 @@
+{
+  "intents": [
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "I would like a sim"
+        },
+        {
+          "text": "I would like to purchase a new device for cash"
+        },
+        {
+          "text": "Make the order again"
+        },
+        {
+          "text": "Ok order this for me"
+        },
+        {
+          "text": "Order and payment for device"
+        },
+        {
+          "text": "Place order for device"
+        },
+        {
+          "text": "Purchase something new"
+        },
+        {
+          "text": "What are the methods to place an order?"
+        },
+        {
+          "text": "Where I can order?"
+        },
+        {
+          "text": "Where to buy a camera?"
+        },
+        {
+          "text": "Can I order some products?"
+        },
+        {
+          "text": "Buy accessories"
+        },
+        {
+          "text": "I am ready to order now."
+        },
+        {
+          "text": "I need a new cell phone"
+        },
+        {
+          "text": "I need jeans"
+        },
+        {
+          "text": "I need some assistance in purchasing a pre paid mobile phone as well as a sim"
+        },
+        {
+          "text": "I want to reorder"
+        },
+        {
+          "text": "Can you tell me which phones are on sale this week? I want to buy a new phone?"
+        },
+        {
+          "text": "Help me to create a new order"
+        },
+        {
+          "text": "How do I go about placing an order with you?"
+        }
+      ],
+      "description": "Place an order."
+    },
+    {
+      "intent": "product_info",
+      "examples": [
+        {
+          "text": "Troubleshooting and Maintenance"
+        },
+        {
+          "text": "Performing the initial setup"
+        },
+        {
+          "text": "The Samsung Smart Remote"
+        },
+        {
+          "text": "Assembling the TV"
+        },
+        {
+          "text": "Features of your new TV"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "I want a status report on an order I made last week."
+        },
+        {
+          "text": "Order progress"
+        },
+        {
+          "text": "Please, can you tell me about the status of an orden I made?"
+        },
+        {
+          "text": "Shipping status"
+        },
+        {
+          "text": "Tracking number"
+        },
+        {
+          "text": "What state you are in with my current order?"
+        },
+        {
+          "text": "When is my new phone supposed to arrive?"
+        },
+        {
+          "text": "Where is my order?"
+        },
+        {
+          "text": "Yes I want to track my order"
+        },
+        {
+          "text": "Yes it was attempted for delivery but it says the parcel was refused though we were in the flat"
+        },
+        {
+          "text": "Can I check on my order?"
+        },
+        {
+          "text": "Can you track the whereabouts of this sim I ordered?"
+        },
+        {
+          "text": "Expected to ship"
+        },
+        {
+          "text": "Has my new phone shipped yet?"
+        },
+        {
+          "text": "Has the order been dispatched yet?"
+        },
+        {
+          "text": "How do I track my shipment?"
+        },
+        {
+          "text": "How soon can we expect the new shipment of iphone 7 that was pre ordered last week?"
+        },
+        {
+          "text": "I purchased an item the other day and still haven't received an update about it, have you shipped it yet?"
+        },
+        {
+          "text": "I was just wondering if I could check the status of an order I made."
+        },
+        {
+          "text": "I would like to check the status of an order I placed recently."
+        }
+      ],
+      "description": "Request status of an order that has been placed."
+    },
+    {
+      "intent": "location_info",
+      "examples": [
+        {
+          "text": "Give me a list of locations"
+        },
+        {
+          "text": "list the locations of you"
+        },
+        {
+          "text": "do you have a samsung tvs store in hyderabad?"
+        },
+        {
+          "text": "do you have a samsung tv store in london?"
+        },
+        {
+          "text": "list the locations of samsung ts"
+        },
+        {
+          "text": "where is your samsung tv?"
+        },
+        {
+          "text": "Where are you physically located?"
+        },
+        {
+          "text": "Where are your stores?"
+        },
+        {
+          "text": "do you have a smansung tvs in tokyo?"
+        },
+        {
+          "text": "what's the address of your samsung tv?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "I need to add a new payment card"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "Do you take discover?"
+        },
+        {
+          "text": "Hi, can I pay for the service by paypal?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "Direct transfer"
+        },
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Change payment setup"
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "Update card"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "Pay by email"
+        },
+        {
+          "text": "Morning, can you tell me by what methods I can settle my monthly bill?"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "Hey I would like to change the delivery date on my order please"
+        },
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I want to modify an order made"
+        },
+        {
+          "text": "I want to edit an order"
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "I ordered a new phone today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to amend the order I placed yesterday please"
+        },
+        {
+          "text": "How do I change the phone that I ordered?"
+        },
+        {
+          "text": "How can I chance my order?"
+        },
+        {
+          "text": "Can I change my order for a new device?"
+        },
+        {
+          "text": "Can I change the number on the order from three to four?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can you help me modify the order that I just placed?"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "I would like to modify an order I made."
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "cancel_order",
+      "examples": [
+        {
+          "text": "that order i placed, i need to cancel it."
+        },
+        {
+          "text": "I need to cancel an order I just placed 2 days ago"
+        },
+        {
+          "text": "I need to cancel my tv order."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hours_info",
+      "examples": [
+        {
+          "text": "what are the hours of tokyo"
+        },
+        {
+          "text": "what are the hours of hyderabad"
+        },
+        {
+          "text": "are you open on public holidays?"
+        },
+        {
+          "text": "are you open on saturdays?"
+        },
+        {
+          "text": "what are the hours of london"
+        },
+        {
+          "text": "what are the timings of hyderabad store?"
+        },
+        {
+          "text": "what are the timings of tokyo store?"
+        },
+        {
+          "text": "what are the timings of london store?"
+        },
+        {
+          "text": "at what time store will be open"
+        },
+        {
+          "text": "are you open on sundays?"
+        },
+        {
+          "text": "What are your hours of operation?"
+        },
+        {
+          "text": "what are you hours of operation"
+        },
+        {
+          "text": "What days are you closed on?"
+        },
+        {
+          "text": "When are you open"
+        },
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "What time are you open until?"
+        },
+        {
+          "text": "When do you close"
+        },
+        {
+          "text": "When do you open"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "My service was interrupted for 5 days. I would like a refund based on the time that the service was unavailable."
+        },
+        {
+          "text": "Can you refund all payments?"
+        },
+        {
+          "text": "Can I just have a full refund?"
+        },
+        {
+          "text": "Can I get my last month refunded due to the contract cancelation?"
+        },
+        {
+          "text": "Can I get a refund when my internet was out for 6 hours?"
+        },
+        {
+          "text": "Can I get a refund on the activation fee?"
+        },
+        {
+          "text": "Arrange refund"
+        },
+        {
+          "text": "Do I get a refund if I paid too much?"
+        },
+        {
+          "text": "I am unfairly charged. am I going to be refunded?"
+        },
+        {
+          "text": "I paid my bill twice last month. can you refund my last payment?"
+        },
+        {
+          "text": "I want a refund on the previous purchase I made."
+        },
+        {
+          "text": "I was charged for services that I don't subscribe to. how can I go about getting a refund"
+        },
+        {
+          "text": "I was overcharged on my last bill, I need that refunded."
+        },
+        {
+          "text": "I would like a refund for the service outage last month please."
+        },
+        {
+          "text": "If I cancel some services which have been prepaid, can I receive a refund for part of what has already been paid? what is your refund policy?"
+        },
+        {
+          "text": "Is it possible to refund the latest payment that I made?"
+        },
+        {
+          "text": "My credit card was double charged for my last bill. how do I get the extra charge refunded to it?"
+        },
+        {
+          "text": "Refund my payment"
+        },
+        {
+          "text": "Where can I get refunds?"
+        },
+        {
+          "text": "Who do I have to speak to get a refund on one of my payments?"
+        }
+      ],
+      "description": "Request a refund for a payment."
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "kia ora"
+        },
+        {
+          "text": "hello anyone"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "good afernoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "thnx"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thanks"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "myself"
+        },
+        {
+          "text": "my name is"
+        },
+        {
+          "text": "iam"
+        },
+        {
+          "text": "what is your name"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "eCommerce_Dispute",
+      "examples": [
+        {
+          "text": "What's a 'restoral fee' and why did you charge me $50.00 for it?"
+        },
+        {
+          "text": "What is the $5.00 charge related to?"
+        },
+        {
+          "text": "What do I do if my bill is wrong?"
+        },
+        {
+          "text": "What are the items on my bill?"
+        },
+        {
+          "text": "Please check the output for my last credit card transaction"
+        },
+        {
+          "text": "Need explanation for the settlement of loan against credit card"
+        },
+        {
+          "text": "I'm not at all pleased with your data speed and I don't feel like I'm getting my money's worth. so I'd like an adjustment"
+        },
+        {
+          "text": "I'd like credit for interrupted service."
+        },
+        {
+          "text": "Why was I charged multiple times for the same purchase?"
+        },
+        {
+          "text": "I need to request an adjustment on my billing statement."
+        },
+        {
+          "text": "I need to readjust my credit card, I am getting endless late fee's despite paying on the due date, I want answers."
+        },
+        {
+          "text": "I don't agree with the charge"
+        },
+        {
+          "text": "How to get a bill corrected?"
+        },
+        {
+          "text": "Explain phone bill"
+        },
+        {
+          "text": "Can you help me understand my bill?"
+        },
+        {
+          "text": "Can you change my bill?"
+        },
+        {
+          "text": "I noticed on my bill that I get charged every month for an extra line. I do not have an extra line. can you please check?"
+        },
+        {
+          "text": "Why was I charged an administration fee?"
+        },
+        {
+          "text": "Why late fee?"
+        },
+        {
+          "text": "Why is there an increase in this months bill from last month?"
+        }
+      ],
+      "description": "Dispute an issue about a bill."
+    },
+    {
+      "intent": "general_about_you",
+      "examples": [
+        {
+          "text": "what you do"
+        },
+        {
+          "text": "what is your name"
+        },
+        {
+          "text": "who are you?"
+        },
+        {
+          "text": "what should i call you?"
+        },
+        {
+          "text": "what can i call you?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "talk to you soon"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "bye"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "How can I cancel my order of your extended data service?"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I've bought an keyboard and id like to cancel it"
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        },
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        }
+      ],
+      "description": "Cancel an order."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tokyo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hyderabad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "london",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no_location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bangalore",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "boston",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "america",
+          "synonyms": [
+            "usa",
+            "canada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sydney",
+          "synonyms": [
+            "melbourn"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yeah",
+            "yoo",
+            "yep",
+            "ok",
+            "okay",
+            "yup",
+            "sure"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nope",
+            "nah",
+            "not now"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/saivardhan1303%40gmail.com_dev/default/disco%20action.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "No Such Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unfortunately, we don’t have a store in @no_location ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1591265908203",
+      "conditions": "@no_location",
+      "dialog_node": "node_6_1591265908212",
+      "previous_sibling": "node_2_1591265908211"
+    },
+    {
+      "type": "standard",
+      "title": "Location Not Provided",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "our hours of operation listed for every  location . so please specify the location when you need the timings!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1591265908203",
+      "conditions": "true",
+      "dialog_node": "node_7_1591265908212",
+      "previous_sibling": "node_6_1591265908212"
+    },
+    {
+      "type": "standard",
+      "title": "Our Locations",
+      "output": {},
+      "parent": "node_1_1591265908203",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@location",
+      "dialog_node": "node_2_1591265908211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good day to you,$username!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1591170152714",
+      "conditions": "$username",
+      "dialog_node": "response_4_1591269000510",
+      "previous_sibling": "response_4_1591269079583"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Good day to you!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1591170152714",
+      "conditions": "Enter any intent ,entity or context",
+      "dialog_node": "response_4_1591269079583"
+    },
+    {
+      "type": "standard",
+      "title": "reply no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How can i help you ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591373074267",
+      "conditions": "@reply:no",
+      "dialog_node": "node_5_1591373411102",
+      "previous_sibling": "node_10_1591373287537"
+    },
+    {
+      "type": "standard",
+      "title": "reply yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Transferring to our representative ..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591373074267",
+      "conditions": "@reply:yes",
+      "dialog_node": "node_10_1591373287537"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Error:No info found"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1591370594216",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1591370619276",
+      "previous_sibling": "response_1_1591370616945"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<?$webhook_result_1.results[0].text?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591370594216",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1591370616945"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our London Samsung store  is open Monday to Saturday from 9 am until 6 pm, except statutory holidays."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1591263984171",
+      "conditions": "@location:london",
+      "dialog_node": "response_8_1591264535730",
+      "previous_sibling": "response_5_1591264487326"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our Hyderabad Samsung store is open Monday to Saturday from 9 am until 6 pm, except statutory holidays."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1591263984171",
+      "conditions": "@location:hyderabad",
+      "dialog_node": "response_5_1591264487326",
+      "previous_sibling": "response_7_1591264188767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Tokyo Samsung store is open Monday to Saturday from 9 am until 6 pm, except statutory holidays."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1591263984171",
+      "conditions": "@location:tokyo",
+      "dialog_node": "response_7_1591264188767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our Hyderabad Samsung store is located at  123 Ameerpet."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1591265908211",
+      "conditions": "@location:hyderabad",
+      "dialog_node": "response_4_1591265908211",
+      "previous_sibling": "response_3_1591265908211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our London Samsung store is located  at Carnaby Street"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1591265908211",
+      "conditions": "@location:london",
+      "dialog_node": "response_5_1591265908212",
+      "previous_sibling": "response_4_1591265908211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our Tokyo Samsung store is located in Takeshita Street."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1591265908211",
+      "conditions": "@location:tokyo",
+      "dialog_node": "response_3_1591265908211"
+    },
+    {
+      "type": "standard",
+      "title": "Thank You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you need anything else."
+              },
+              {
+                "text": " My pleasure."
+              },
+              {
+                "text": " No problem. Let me know if there is anything else I can help you!"
+              },
+              {
+                "text": "I aim to please."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1591263216355",
+      "conditions": "#thank_you",
+      "dialog_node": "node_1_1591263352749",
+      "previous_sibling": "node_1_1591262791020"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "nice talking to you today"
+              },
+              {
+                "text": "have a nice day"
+              },
+              {
+                "text": "Goodbye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1591263216355",
+      "conditions": "#goodbyes",
+      "dialog_node": "node_2_1591263586866",
+      "previous_sibling": "node_1_1591263352749"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there.How can I help you?"
+              },
+              {
+                "text": "Hello. how may I assist you today?"
+              },
+              {
+                "text": "Hi. What can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1591263216355",
+      "conditions": "#greetings",
+      "dialog_node": "node_1_1591262791020"
+    },
+    {
+      "type": "standard",
+      "title": "Location Not Provided",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "our hours of operation listed for every  location . so please specify the location when you need the timings!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591263900804",
+      "conditions": "true",
+      "dialog_node": "node_8_1591265465976",
+      "previous_sibling": "node_3_1591264890093"
+    },
+    {
+      "type": "standard",
+      "title": "No Such Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Unfortunately, we don’t have a store in @no_location ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591263900804",
+      "conditions": "@no_location",
+      "dialog_node": "node_3_1591264890093",
+      "previous_sibling": "node_2_1591263984171"
+    },
+    {
+      "type": "standard",
+      "title": "Our Locations",
+      "parent": "node_3_1591263900804",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@location",
+      "dialog_node": "node_2_1591263984171"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello,<? input.text ?>! It's  lovely to meet you.How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1591268508346",
+      "context": {
+        "username": "<? input.text ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1591269685893"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello\"<?input.text?>\"!It's  lovely to meet you.How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591269685893",
+      "disabled": true,
+      "conditions": "$username",
+      "dialog_node": "response_7_1591269715735"
+    },
+    {
+      "type": "folder",
+      "title": "chitchat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1591263216355",
+      "previous_sibling": "node_1_1591265908203"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am virtual assistant that is designed to answer your questions about the Samsung tv Store. What should i call you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#general_about_you",
+      "dialog_node": "node_4_1591268508346",
+      "previous_sibling": "node_10_1591170152714"
+    },
+    {
+      "type": "standard",
+      "title": "method of payment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All debit and credit cards are acceptable .For any further queries contact us on info\\@samsung.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Method_Of_Payment",
+      "dialog_node": "node_1_1591372944673",
+      "previous_sibling": "node_3_1591373074267"
+    },
+    {
+      "type": "standard",
+      "title": "customer support",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to connect you to our representative?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Cancel_Product_Order || #eCommerce_Dispute || #eCommerce_Product_Order_Status || #eCommerce_Modify_Product_Order || #eCommerce_Refund_Payment",
+      "dialog_node": "node_3_1591373074267",
+      "previous_sibling": "node_7_1591370594216"
+    },
+    {
+      "type": "standard",
+      "title": "Product information",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#product_info",
+      "dialog_node": "node_7_1591370594216",
+      "previous_sibling": "node_4_1591170624506"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "it looks like we are  not quite getting  each other today.would you  like to talk to a human agent instead? if so, please contact us at 789-789-7896. thank you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1591372944673",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "thanks for visiting!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_4_1591170624506",
+      "previous_sibling": "node_4_1591263216355"
+    },
+    {
+      "type": "standard",
+      "title": "Location Information",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#location_info",
+      "dialog_node": "node_1_1591265908203",
+      "previous_sibling": "node_3_1591263900804"
+    },
+    {
+      "type": "standard",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1591170152714",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Hours of Operation",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#hours_info",
+      "dialog_node": "node_3_1591263900804",
+      "previous_sibling": "node_4_1591268508346"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am samsung assistant chatbot here to assist you with your questions about samsung tv's!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "SAMSUNG",
+  "language": "en",
+  "description": ""
+}
