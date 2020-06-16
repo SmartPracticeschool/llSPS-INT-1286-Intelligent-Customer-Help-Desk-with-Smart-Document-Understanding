@@ -8,7 +8,7 @@ Youtube link:
 https://youtu.be/KcSEm7aRjnc
 
 
-Feedbacck Vedio link:
+Feedback Vedio link:
 
 
 https://youtu.be/o-k_DfRYDGc
